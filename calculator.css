@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+}
+
+.calc button{
+    height: 98%;
+    width: 98%;
+    font-size: 20px;
+}
+
+.calc {
+    margin-top: 150px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    /*grid-template-rows: repeat(6, 35px);*/
+    grid-template-rows: 65px 35px;
+}
+
+.res {
+    font-size: 40px;
+    height: 98%;
+    width: 99.5%;
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+/*#igual {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width: 99%;
+}*/
