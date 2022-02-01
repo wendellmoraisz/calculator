@@ -1,7 +1,7 @@
 const res = document.getElementById('res')
 
 function display(id){
-    res.innerHTML += id.value
+    res.innerHTML.length < 13 ? res.innerHTML += id.value : null
 }
 
 function clean() {
